@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>profile</title>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
+    <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+    <link type="text/css" rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-header" href="#"><h2 class="navbar-text">InterestAalto</h2></a>
+        </div>
+        <div class="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+                </li>
+                <li><a href="#"><strong>Mr.Handsome</strong></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="img/15.jpg" alt="...">
+                    <div class="caption">
+                        <p>hhhhhhhhhh<br/>hhhhhhhhhh<br/>hhhhhhhhhh<br/></p>
+                        <h4>Rating:<strong>5.0</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-8 col-md-6">
+                <div class="container">
+                    <ul id="profileTab" class="nav nav-tabs">
+                        <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+                        <li><a href="#partnership" data-toggle="tab">Partnership</a></li>
+                        <li><a href="#message" data-toggle="tab">Message</a></li>
+                        <li><a href="#review" data-toggle="tab">Review</a></li>
+                    </ul>
+                    <div id="profileTabContent" class="tab-content">
+                        <div class="tab-pane fade in active" id="profile">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <h5>Name:</h5>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4>Mr.Handsome</h4>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="" type="button" class="btn btn-success btn-sm btnedit">Edit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <h5>Email:</h5>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4>Handsome@aalto.fi</h4>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="" type="button" class="btn btn-success btn-sm btnedit">Edit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <h5>Photo:</h5>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="col-sm-6">
+                                        <div class="thumbnail">
+                                            <img src="img/13.jpg" alt="..." class="img-rounded ">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="" type="button" class="btn btn-success btn-sm btnedit">Edit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <h5>Pictures<br/><small>to describe your skill:</small></h5>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-xs-4">
+                                            <div class="thumbnail">
+                                                <img src="img/13.jpg" alt="..." class="img-rounded ">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-4">
+                                            <div class="thumbnail">
+                                                <img src="img/13.jpg" alt="..." class="img-rounded ">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-4">
+                                            <div class="thumbnail">
+                                                <img src="img/13.jpg" alt="..." class="img-rounded ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="" type="button" class="btn btn-success btn-sm btnedit">Edit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <h5>Skills you can teach:</h5>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4>Coding</h4>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="" type="button" class="btn btn-success btn-sm btnedit">Edit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <h5>Skills you want to learn:</h5>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4>Cooking</h4>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="" type="button" class="btn btn-success btn-sm btnedit">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="partnership">
+                            <div id="partmember">
+                                <div class="col-sm-3">
+                                    <div class="col-sm-10">
+                                        <div class="thumbnail">
+                                            <img src="img/13.jpg" alt="..." class="img-rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <p>Partner name</p>
+                                </div>
+                                <div class="col-sm-2">
+                                    <p>Partnership condition</p>
+                                </div>
+                                <div class="col-sm-2">
+                                    <button type="button" class="btn btn-danger">End Partnership</button>
+                                    <!--<button type="button" class="btn btn-default" data-toggle="modal" data-target="#">Write Review</button>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="message">
+                            <div class="row">
+                                <div class="row messagebox">
+                                    <div class="col-xs-3 col-sm-3 col-md-2">
+                                        <div class="thumbnail mepic">
+                                            <img src="img/10.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-8 col-sm-6 col-md-6 messageinfo">
+                                        <div class="caption">
+                                            <h4>Name</h4>
+                                            <p>Thumbnail label Thumbnail label Thumbnail label
+                                                Thumbnail label Thumbnail label Thumbnail label
+                                                Thumbnail label Thumbnail label Thumbnail label
+                                                Thumbnail label Thumbnail label Thumbnail label</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="review">
+                            <div class="row">
+                                <div class="row reviewbox">
+                                    <div class="col-xs-3 col-sm-3 col-md-2">
+                                        <div class="thumbnail repic">
+                                            <img src="img/10.jpg" alt="..." class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-8 col-sm-6 col-md-6 reinfo">
+                                        <div class="caption">
+                                            <h4>Name</h4>
+                                            <p>Thumbnail label Thumbnail label Thumbnail label
+                                                Thumbnail label Thumbnail label Thumbnail label
+                                                Thumbnail label Thumbnail label Thumbnail label
+                                                Thumbnail label Thumbnail label Thumbnail label</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

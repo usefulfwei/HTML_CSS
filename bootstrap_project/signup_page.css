@@ -1,0 +1,50 @@
+.navbar .navbar-header>a>h2
+{
+    color:red;
+    font-weight: bold;
+}
+.navbar .navbar-collapse>ul>li{
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top: 2px;
+}
+.navbar .navbar-collapse>ul>li>a{
+    font-size: 25px;
+    color:white;
+}
+label{
+    font-size:18px;
+}
+.inputbox1{
+    float: left;
+    height: 41px;
+    background: #5cb85c;
+    border-color: #4cae4c;
+    width: 144px;
+    position:relative;
+    border-radius: 5px;
+}
+.inputbox2{
+    text-align:center;
+    padding-top:8px;
+    font-size:18px;
+    font-weight:200;
+    color:white;
+}
+.inputstyle {
+    width: 144px;
+    height: 41px;
+    cursor: pointer;
+    font-size: 30px;
+    outline: medium none;
+    position: absolute;
+    filter: alpha(opacity=0);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+}
+.btn-sm{
+    font-size:16px;
+}
